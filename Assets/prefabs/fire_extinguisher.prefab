@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8566801750585613012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 461898671311598579}
+  m_Layer: 0
+  m_Name: fire_extinguisher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &461898671311598579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8566801750585613012}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.8333764, y: 0.652426, z: -11.043615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7072341379006290586}
+  - {fileID: 8246228218108843233}
+  - {fileID: 4933400045445064478}
+  - {fileID: 2406588358416468286}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2805551398836268757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 461898671311598579}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.41752338
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11536598
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15411568
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+      propertyPath: m_Name
+      value: top_lid_fire_extinguisher_uglekislotnyi
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+--- !u!4 &2406588358416468286 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 850f8a5fd3a14b143a61f08c947f0242, type: 3}
+  m_PrefabInstance: {fileID: 2805551398836268757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4898874394796572917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 461898671311598579}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.37872362
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.13312602
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.11981487
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.32318178
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6990816
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.20934348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6025063
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -315.241
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -95.259
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 187.83
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.000020126074
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.000025736852
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.00009815545
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.00012491012
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.00036989938
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.00020930737
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+      propertyPath: m_Name
+      value: rope_fire_extinguisher_uglekislotnyi
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+--- !u!4 &4933400045445064478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2117f143fac7a0b4c8ba09a9bbdfbce9, type: 3}
+  m_PrefabInstance: {fileID: 4898874394796572917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7326433545521085809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 461898671311598579}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.39813805
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.652426
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1545744
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+      propertyPath: m_Name
+      value: fire_extinguisher_uglekislotnyi_body (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+--- !u!4 &7072341379006290586 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 13fe3f4a2a0ec8044a20abd068eb3e3e, type: 3}
+  m_PrefabInstance: {fileID: 7326433545521085809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8501324549471826698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 461898671311598579}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.38212347
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10382599
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.12031555
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+      propertyPath: m_Name
+      value: chika_extinguisher_uglekislotnyi
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+--- !u!4 &8246228218108843233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8e7b06c142ea01047a42130a9f59a275, type: 3}
+  m_PrefabInstance: {fileID: 8501324549471826698}
+  m_PrefabAsset: {fileID: 0}
