@@ -11,15 +11,14 @@ public class scr_CharacterController : MonoBehaviour
     private Vector3 _newCameraRotation;
     private Vector3 _newCharacterRotation;
     private CharacterController _characterController;
-    
-    public Vector2 inputMovement;
-    public Vector2 inputView;
+    private Vector2 _inputMovement;
+    private Vector2 _inputView;
 
     [Header("References")] 
     public Transform cameraHolder;
 
     [Header("Settings")] 
-    public scr_Models.PlayerSettingsModel playerSettings;
+    public scr_Models.PlayerModel playerSettings;
     public float viewClampYMin = -70;
     public float viewClampYMax = 80;
     
@@ -27,8 +26,8 @@ public class scr_CharacterController : MonoBehaviour
     {
         _defaultInput = new DefaultInput();
 
-        _defaultInput.Character.Movement.performed += e => inputMovement = e.ReadValue<Vector2>();
-        _defaultInput.Character.View.performed += e => inputView = e.ReadValue<Vector2>();
+        _defaultInput.Character.Movement.performed += e => _inputMovement = e.ReadValue<Vector2>();
+        _defaultInput.Character.View.performed += e => _inputView = e.ReadValue<Vector2>();
         
         _defaultInput.Enable();
 
@@ -46,10 +45,10 @@ public class scr_CharacterController : MonoBehaviour
 
     private void CalculateView()
     {
-        _newCharacterRotation.y += playerSettings.ViewSensitivity * inputView.x * Time.deltaTime;
+        _newCharacterRotation.y += playerSettings.ViewSensitivity * _inputView.x * Time.deltaTime;
         transform.localRotation = Quaternion.Euler(_newCharacterRotation);
         
-        _newCameraRotation.x += playerSettings.ViewSensitivity * -inputView.y * Time.deltaTime;
+        _newCameraRotation.x += playerSettings.ViewSensitivity * -_inputView.y * Time.deltaTime;
         _newCameraRotation.x = Mathf.Clamp(_newCameraRotation.x, viewClampYMin, viewClampYMax);
         
         cameraHolder.localRotation = Quaternion.Euler(_newCameraRotation);
@@ -57,8 +56,8 @@ public class scr_CharacterController : MonoBehaviour
 
     private void CalculateMovement()
     {
-        var verticalSpeed = playerSettings.WalkingSpeed * inputMovement.y * Time.deltaTime;
-        var horizontalSpeed = playerSettings.StrafeSpeed * inputMovement.x * Time.deltaTime;
+        var verticalSpeed = playerSettings.WalkingSpeed * _inputMovement.y * Time.deltaTime;
+        var horizontalSpeed = playerSettings.StrafeSpeed * _inputMovement.x * Time.deltaTime;
 
         var movementSpeed = new Vector3(horizontalSpeed, 0, verticalSpeed );
 

@@ -7,7 +7,7 @@ public static class scr_Models
     #region Player
 
     [Serializable]
-    public class PlayerSettingsModel
+    public class PlayerModel
     {
         [Header("View Settings")] 
         public float ViewSensitivity;
@@ -16,6 +16,15 @@ public static class scr_Models
         public float WalkingSpeed;
         public float StrafeSpeed;
     }    
+
+    #endregion
+
+    #region Extinguisher
+
+    public class ExtinguisherModel
+    {
+        
+    }
 
     #endregion
 }
