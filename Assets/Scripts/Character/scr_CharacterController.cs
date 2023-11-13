@@ -5,11 +5,12 @@ using System.Threading;
 using UnityEditor;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
+public class scr_CharacterController : MonoBehaviour
 {
     private DefaultInput _defaultInput;
     private Vector3 _newCameraRotation;
     private Vector3 _newCharacterRotation;
+    private CharacterController _characterController;
     
     public Vector2 inputMovement;
     public Vector2 inputView;
@@ -33,6 +34,8 @@ public class CharacterController : MonoBehaviour
 
         _newCameraRotation = cameraHolder.localRotation.eulerAngles;
         _newCharacterRotation = transform.localRotation.eulerAngles;
+
+        _characterController = GetComponent<CharacterController>();
     }
 
     private void Update()
@@ -54,6 +57,11 @@ public class CharacterController : MonoBehaviour
 
     private void CalculateMovement()
     {
-        
+        var walkingSpeed = playerSettings.WalkingSpeed * inputMovement.y * Time.deltaTime;
+        var horizontalSpeed = playerSettings.StrafeSpeed * inputMovement.x * Time.deltaTime;
+
+        var movementSpeed = new Vector3(horizontalSpeed, 0, walkingSpeed);
+
+        _characterController.Move(movementSpeed);
     }
 }

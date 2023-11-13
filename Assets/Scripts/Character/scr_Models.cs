@@ -9,9 +9,12 @@ public static class scr_Models
     [Serializable]
     public class PlayerSettingsModel
     {
-        [Header("View Settings")]
+        [Header("View Settings")] 
         public float ViewSensitivity;
-        
+
+        [Header("Movement")] 
+        public float WalkingSpeed;
+        public float StrafeSpeed;
     }    
 
     #endregion
