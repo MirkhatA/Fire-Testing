@@ -27,4 +27,16 @@ public static class scr_Models
     }
 
     #endregion
+
+    #region Fire
+
+    [Serializable]
+    public class FireModel
+    {
+        [Header("Fire status"), Range(0f, 1f)] 
+        public float FireIntensity = 1f;
+
+    }
+
+    #endregion
 }
