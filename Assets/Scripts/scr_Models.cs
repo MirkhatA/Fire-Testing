@@ -21,9 +21,11 @@ public static class scr_Models
 
     #region Extinguisher
 
+    [Serializable]
     public class ExtinguisherModel
     {
-        
+        [Header("Extinguisher status"), Range(0f, 1f)] 
+        public float CurrentIntensity = 0f;
     }
 
     #endregion
@@ -35,7 +37,7 @@ public static class scr_Models
     {
         [Header("Fire status"), Range(0f, 1f)] 
         public float FireIntensity = 1f;
-
+        
     }
 
     #endregion
